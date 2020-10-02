@@ -1,0 +1,20 @@
+    #navbar {
+        flex-direction: column;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        overflow: hidden;
+        min-height: 80px;
+    }
+    
+    #experinces .items {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #experinces .items .item {
+        width: 90%;
+    }
+    
+    .projects .project {
+        flex-direction: column;
+    }

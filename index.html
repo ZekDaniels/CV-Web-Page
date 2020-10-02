@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZekDaniels | Portfolio</title>
+    <meta name="keywords" content="Web Tasarım, Programlama" />
+    <meta name="description" content="ZekDaniels | Çalışmalarım" />
+    <!-- Fonts Google -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" />
+    <!-- Fonts Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css" />
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css" />
+</head>
+
+<body>
+    <header class="bg-light-sea-green color-white">
+        <div class="container">
+            <nav id="navbar" class="text-center">
+                <h1 class="heading-small color-light-blue">Zekeriya Şahin Avşar</h1>
+                <ul>
+                    <li><a href=" #home">Ana Sayfa</a></li>
+                    <li><a href="#projects">Projeler</a></li>
+                    <li><a href="#experinces">Deneyimler</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <img src="images/cv.jpg" alt="Zekeriya Şahin Avşar">
+        <div class="name text-center">
+            <h2 class="color-light-sea-green heading-big">Zekeriya Şahin Avşar</h2>
+            <p class="color-light-sea-green">Computer Engineer || Web Site Developer</p>
+        </div>
+        <a class="btn btn-primary" href="#projects">Projelere Git</a>
+    </section>
+    <section id="experinces" class="bg-light-sea-green color-white">
+        <h3 class="text-center heading-medium">Deneyimler</h3>
+        <div class="items text-center">
+            <article class="item">
+                <i class="fa fa-user-graduate fa-2x"></i>
+                <h3>IEEE Selçuk Öğrenci Kolu</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, sapiente.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-gas-pump fa-2x"></i>
+                <h3>Mepsan A.Ş</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, saepe.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-object-group fa-2x"></i>
+                <h3>Vizyoner A.Ş</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, accusantium.</p>
+            </article>
+        </div>
+    </section>
+    <section id="projects" class="color-special-black">
+        <h3 class="text-center heading-medium color-light-sea-green">Projeler</h3>
+        <div class="container">
+            <div class="projects">
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/bcg2.jpg" alt="Proje 1" width="300" height="300">
+                        <span>Proje 1</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="title">Mepsan Tank Otomasyonu</div>
+                        <div class="description">Mepsan Tank Otomasyonu || PHP, Ajax, SQLite</div>
+                        <div class="date">25/07/2019</div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/bcg.png" alt="Proje 2" width="300" height="300">
+                        <span>Proje 2</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="title">IEEE Selçuk Web Sitesi</div>
+                        <div class="description">IEEE Selçuk Web Sitesi || Bootstrap, PHP, Router, MySQL</div>
+                        <div class="date">02/02/2020</div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/logobg.png" alt="Proje 3" width="300" height="300">
+                        <span>Proje 3</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="title">Robot Form ve Paneli</div>
+                        <div class="description">Robot Form ve Paneli || Bootstrap, PHP, Ajax, MySQL</div>
+                        <div class="date">25/07/2020</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-light-sea-green ">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center">Bana Ulaşın</h4>
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="İsim">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea class="form-control" name="message" id="message" placeholder="Mesajınız..." rows="5"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-secondary btn-block">sa</button>
+            </form>
+
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

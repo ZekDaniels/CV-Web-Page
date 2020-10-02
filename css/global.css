@@ -1,0 +1,160 @@
+/* Texts */
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+}
+
+
+/*Colors Backgrounds #737e7a #99BADD*/
+
+.bg-white {
+    background: #ffffff;
+}
+
+.bg-dark-gray {
+    background: darkgray;
+}
+
+.bg-light-sea-green {
+    background: #20B2AA;
+}
+
+.bg-carolina {
+    background: #99BADD;
+}
+
+.bg-dark-blue {
+    background: #00008B;
+}
+
+.bg-light-blue {
+    background: #00FFFF;
+}
+
+.bg-candy-apple {
+    background: #FF0800;
+}
+
+.bg-sepcial-black {
+    background: #1D1D1D;
+}
+
+
+/*Colors Texts #737e7a #99BADD*/
+
+.color-white {
+    color: #ffffff;
+}
+
+.color-dark-cyan {
+    color: darkcyan;
+}
+
+.color-carolina {
+    color: #99BADD;
+}
+
+.color-light-sea-green {
+    color: #20B2AA;
+}
+
+.color-dark-blue {
+    color: #00008B;
+}
+
+.color-light-blue {
+    color: #00FFFF;
+}
+
+.color-candy-apple {
+    color: #FF0800;
+}
+
+.color-special-black {
+    color: #1D1D1D;
+}
+
+
+/* Buttons */
+
+.btn {
+    font-size: 1.15rem;
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary {
+    background: #20B2AA;
+}
+
+.btn-secondary {
+    background: #00FFFF;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.btn-primary:hover {
+    background: #00FFFF;
+    color: #000000;
+}
+
+.btn-secondary:hover {
+    background: #ffffff;
+    border: 0.8px solid 00FFFF;
+    color: #00FFFF;
+}
+
+.btn-block {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Forms*/
+
+.form-group {
+    padding: 0.25rem 0;
+}
+
+.form-group label {
+    display: block;
+}
+
+
+/* Container */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.form-control {
+    width: 100%;
+    font-size: 1rem;
+    min-height: 2rem;
+    padding: 0.4rem;
+    resize: none;
+}
